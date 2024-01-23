@@ -12,6 +12,10 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+
+source: McKenna, R., Miklau, G., & Sheldon, D. (2021). Private-PGM. In Journal of Privacy and Confidentiality (v2021-10-04-jpc, Bd. 11, Nummer 3). https://doi.org/10.5281/zenodo.5548533
+
 """
 
 #Code for computing approximate differential privacy guarantees

@@ -16,6 +16,9 @@ This is a generalization of the winning mechanism from the
 
 Unlike the original implementation, this one can work for any discrete dataset,
 and does not rely on public provisional data for measurement selection.  
+
+source: McKenna, R., Miklau, G., & Sheldon, D. (2021). Private-PGM. In Journal of Privacy and Confidentiality (v2021-10-04-jpc, Bd. 11, Nummer 3). https://doi.org/10.5281/zenodo.5548533
+
 """
 
 def MST(data, epsilon, delta):

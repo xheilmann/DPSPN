@@ -1,3 +1,7 @@
+'''
+McKenna, R., Miklau, G., & Sheldon, D. (2021). Private-PGM. In Journal of Privacy and Confidentiality (v2021-10-04-jpc, Bd. 11, Nummer 3). https://doi.org/10.5281/zenodo.5548533
+'''
+
 import numpy as np
 import torch
 
