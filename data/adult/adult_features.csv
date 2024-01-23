@@ -1,0 +1,14 @@
+age:categorical:1,74.
+workclass:categorical:0,8.
+fnlwgt:categorical:0,99.
+education-num:categorical:0,15.
+marital-status:categorical:0,6.
+occupation:categorical:0,14.
+relationship:categorical:0,5.
+race:categorical:0,4.
+sex:binary:0,1.
+capital-gain:categorical:0,99.
+capital-loss:categorical:0,87.
+hours-per-week:categorical:0,98.
+native-country:categorical:0,41.
+income>50K:binary:0,1.

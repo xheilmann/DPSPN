@@ -1,0 +1,17 @@
+age:categorical:18,95.
+job:categorical:0,11.
+marital:categorical:0,2.
+education:categorical:0,3.
+default:binary:0,1.
+balance:discrete:-6847,81204.
+housing:binary:0,1.
+loan:binary:0,1.
+contact:categorical:0,2.
+day_of_week:categorical:1,31.
+month:categorical:0,11.
+duration:categorical:2,3881.
+campaign:categorical:1,63.
+pdays:categorical:-1,854.
+previous:categorical:0,58.
+poutcome:categorical:0,3.
+y:binary:0,1.

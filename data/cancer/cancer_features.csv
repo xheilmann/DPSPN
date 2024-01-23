@@ -1,0 +1,34 @@
+Age:discrete:13,84.
+Number of sexual partners:discrete:1.0,28.0.
+First sexual intercourse:discrete:10.0,32.0.
+Num of pregnancies:discrete:0.0,11.0.
+Smokes:discrete:0.0,1.0.
+Smokes (years):continuous:0.0,37.0.
+Smokes (packs/year):continuous:0.0,37.0.
+Hormonal Contraceptives:discrete:0.0,1.0.
+Hormonal Contraceptives (years):continuous:0.0,22.0.
+IUD:continuous:0.0,1.0.
+IUD (years):continuous:0.0,19.0.
+STDs:discrete:0.0,1.0.
+STDs (number):discrete:0.0,4.0.
+STDs_condylomatosis:discrete:0.0,1.0.
+STDs_cervical condylomatosis:discrete:0.0,1.0.
+STDs_vaginal condylomatosis:discrete:0.0,1.0.
+STDs_vulvo-perineal condylomatosis:discrete:0.0,1.0.
+STDs_syphilis:discrete:0.0,1.0.
+STDs_pelvic inflammatory disease:discrete:0.0,1.0.
+STDs_genital herpes:discrete:0.0,1.0.
+STDs_molluscum contagiosum:discrete:0.0,1.0.
+STDs_AIDS:discrete:0.0,1.0.
+STDs_HIV:discrete:0.0,1.0.
+STDs_Hepatitis B:discrete:0.0,1.0.
+STDs_HPV:discrete:0.0,1.0.
+STDs_Number of diagnosis:discrete:0,3.
+Dx_Cancer:binary:0,1.
+Dx_CIN:binary:0,1.
+Dx_HPV:binary:0,1.
+Dx:binary:0,1.
+Hinselmann:binary:0,1.
+Schiller:binary:0,1.
+Citology:binary:0,1.
+Biopsy:binary:0,1.
