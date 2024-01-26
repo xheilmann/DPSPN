@@ -44,8 +44,7 @@ def print_save_results(results,  classification, path):
 
     if classification :
         data = pd.DataFrame(results[1:-1],
-                            columns=['name', 'AUC-Original', 'AUC-Synthetic', 'AUC-DP-Synthetic', 'AUC-PATEGAN-Synthetic', 'AUC-MST-Synthetic','APR-Original',
-                                     'APR-Synthetic','APR-DP-Synthetic', 'APR-PATEGAN-Synthetic', 'APR-MST-Synthetic'])
+                            columns=['name', 'AUC-Original',  'AUC-DPSPN-Synthetic', 'AUC-PATEGAN-Synthetic', 'AUC-MST-Synthetic','AUC-PrivBayes-Synthetic','APR-Original','APR-DPSPN-Synthetic', 'APR-PATEGAN-Synthetic', 'APR-MST-Synthetic' 'APR-PrivBayes-Synthetic'])
         print(data)
         data.to_csv(path, index=False, mode="a")
         for row in data.values[1:]:

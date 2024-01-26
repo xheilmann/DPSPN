@@ -1,3 +1,7 @@
+"""
+Code inspired by the SPFlow library (https://github.com/SPFlow/SPFlow)
+"""
+
 import numpy as np
 from diffprivlib import models as dp
 

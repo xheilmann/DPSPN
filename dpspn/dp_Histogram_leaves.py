@@ -1,4 +1,6 @@
-
+"""
+Code inspired by the SPFlow library (https://github.com/SPFlow/SPFlow)
+"""
 from collections import namedtuple
 from sys import maxsize
 

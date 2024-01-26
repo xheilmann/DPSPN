@@ -1,4 +1,6 @@
-
+"""
+Code inspired by the SPFlow library (https://github.com/SPFlow/SPFlow)
+"""
 import itertools
 import logging
 from collections import deque
