@@ -66,7 +66,6 @@ parser.add_argument('--mst-domain', help='mst-domain file in json format to use'
 parser.add_argument('--epsilon', type=float, default=1.0, help='Epsilon differential privacy parameter')
 parser.add_argument('--delta', type=float, default=0.0, help='Delta differential privacy parameter')
 parser.add_argument('--pg-teachers', type=int, default=5, help='Number of teachers for pategan')
-parser.add_argument('--rongauss-dimension', type=int, default=4, help='dimension ron-gauss algorithm reduces too')
 parser.add_argument('--save-synthetic', action='store_true', help='Save the synthetic data into csv')
 parser.add_argument('--output-data-path', help='Required if synthetic data needs to be saved')
 
@@ -121,7 +120,7 @@ sample = [np.nan for _ in range(len(train[0]))]
 DP_start=time.time()
 dpspn_slice=opt.dpspn_slice
 for it in range(opt.iterations):
-    dp_mspn, max_op_on_dataset_slice = learn_dp_classifier(train, ds_context, learn_dp_mspn, target_index, min_instances_slice=dpspn_slice, epsilon=(e/10), total_operations=9, cols=None)
+    dp_mspn, max_op_on_dataset_slice = learn_dp_classifier(train, ds_context, learn_dp_mspn, target_index, min_instances_slice=dpspn_slice, epsilon=(e/10), total_operations=10, cols=None)
     samples = np.array(sample * train.shape[0]).reshape(-1, len(sample))
     dp_samples = sample_instances(dp_mspn, samples, RandomState(123))
     syn_y = dp_samples[:, target_index]
